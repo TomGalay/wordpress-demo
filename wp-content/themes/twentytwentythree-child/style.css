@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Ithas Theme
+ Theme URI:    http://example.com/twentytwentythree/
+ Description:  Ithas Team
+ Author:       Tom Galay
+ Author URI:   https://wordpress.org/
+ Template:     twentytwentythree
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments
+ Text Domain:  twentytwentythreechild
+*/
+
+/*
+Navigation
+*/
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand {
+    color: #FFF;
+}
+
+.itg-bg-color {
+    background-color: rgb(243, 242, 239);
+}
+
+.font-questrial {
+    font-family: 'Questrial', sans-serif;
+}
+
+/*
+jQuery Validate
+*/
+
+.error {
+    color: #DC3545;
+}
+
+.pointer {
+    cursor: pointer
+}
+
+.pointer:hover {
+    color: #198754;
+}
+
+/*
+Forms
+*/
+
+/*hides up and down arrow in number type inputs*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+/*
+DataTables
+*/
+.dt-button-collection button {
+    width: 100%;
+}
+
+table#users {
+    border: 1px solid black;
+}
+
+.itg-dt-buttons-margin .dt-buttons {
+    margin-bottom: 1.5rem;
+}
+
+.dt-buttons button {
+    margin-bottom: 0.5rem;
+}
+
+#users_filter{
+    margin-bottom: 1rem;
+}
